@@ -1,0 +1,23 @@
+{
+  "config_hash": "408d5e4249cb2f11222fb5f7878a3240d4030c5d48d57bb6b88d296e0cf9093d",
+  "generator_version": "v2-1",
+  "instance_hashes": [
+    "0b8bfafdec1c812c0f8b71dd1b51c1a562bd9c403367fe6d1d252e99a7f0dc1a",
+    "1557190dc48f27e333c6c8dca827da7a561331c0fe29845d0717789c52e9a73c",
+    "c768df1e83de2faeba282e7d68df73c83373ceec1b1191432893f3199f88f3ab",
+    "9e04daa8cf7ec0a0d0aaa4d9eb4f5a4aa90e3a379c100dfc7a1799caf5664ec0"
+  ],
+  "instance_ids": [
+    "train_0001",
+    "train_0002",
+    "train_0003",
+    "train_0004"
+  ],
+  "job_count_range": [
+    8,
+    10
+  ],
+  "num_instances": 4,
+  "seed_start": 500000,
+  "split": "train"
+}

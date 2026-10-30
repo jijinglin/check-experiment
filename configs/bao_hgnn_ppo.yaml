@@ -1,0 +1,50 @@
+# HGNN-PPO training configuration (specification section 20).
+#
+# NOTE ON PROVENANCE (see README "Adaptation notes"): the values under `model`
+# and `ppo` are the project's *pre-registered starting parameters* for the
+# makespan-only adaptation of Bao et al. (2026).  Keys marked with
+# "(adaptation)" are implementation choices of this project and are NOT
+# claimed to be original paper hyper-parameters.
+
+problem_config: configs/problem_v2.yaml
+
+# Training / validation splits used by this run (job_count_range omitted ->
+# the problem config's [16, 40] range applies).
+splits:
+  train:
+    num_instances: 200
+    seed_start: 42
+  validation:
+    num_instances: 20
+    seed_start: 1242
+
+model:
+  embedding_dim: 8
+  hgnn_layers: 2
+  actor_hidden_dim: 128
+  critic_hidden_dim: 128
+
+ppo:
+  learning_rate: 0.0002
+  gamma: 1.0
+  clip_epsilon: 0.2
+  actor_coef: 1.0
+  value_coef: 0.5
+  entropy_coef: 0.01
+  update_epochs: 3
+  advantage_normalization: true
+  max_grad_norm: 1.0
+  minibatch_size: 256        # (adaptation) PPO minibatch size; the paper does not specify one
+
+training:
+  episodes_per_update: 20
+  total_episodes: 9600
+  validation_interval_updates: 10
+  data_dir: data             # (adaptation) dataset root for this project
+  run_dir: runs/bao          # (adaptation) per-seed run directory root
+  device: auto               # (adaptation) "auto" | "cpu" | "cuda"
+  log_interval_episodes: 100 # (adaptation) console/log cadence
+
+evaluation:
+  deterministic: true
+  checkpoint_selection: best_validation

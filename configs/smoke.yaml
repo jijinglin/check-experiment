@@ -1,0 +1,45 @@
+# Smoke configuration: tiny CPU training run used by tests and by
+# `python scripts/train_bao.py --config configs/smoke.yaml`.
+# Uses the same problem definition as the main experiment.
+problem_config: configs/problem_v2.yaml
+
+splits:
+  train:
+    num_instances: 4
+    seed_start: 500000
+    job_count_range: [8, 10]
+  validation:
+    num_instances: 2
+    seed_start: 500100
+    job_count_range: [8, 10]
+
+model:
+  embedding_dim: 8
+  hgnn_layers: 2
+  actor_hidden_dim: 128
+  critic_hidden_dim: 128
+
+ppo:
+  learning_rate: 0.0002
+  gamma: 1.0
+  clip_epsilon: 0.2
+  actor_coef: 1.0
+  value_coef: 0.5
+  entropy_coef: 0.01
+  update_epochs: 3
+  advantage_normalization: true
+  max_grad_norm: 1.0
+  minibatch_size: 16
+
+training:
+  episodes_per_update: 2
+  total_episodes: 4
+  validation_interval_updates: 1
+  data_dir: data/smoke    # separate root so smoke splits never collide with the frozen main dataset
+  run_dir: runs/bao_smoke
+  device: cpu
+  log_interval_episodes: 1
+
+evaluation:
+  deterministic: true
+  checkpoint_selection: best_validation

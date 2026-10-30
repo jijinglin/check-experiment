@@ -1,0 +1,2 @@
+instance_id,instance_sha256,method,train_seed,checkpoint_id,eval_mode,makespan,inference_time_ms,schedule_file
+test_small_0001,REPLACE_WITH_SHA256_FROM_DATA_MANIFESTS,Concede-HRL,1,ckpt_best,deterministic_hard,0.0,0.0,

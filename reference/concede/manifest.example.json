@@ -1,0 +1,13 @@
+{
+  "method": "Concede-HRL",
+  "objective": "makespan",
+  "assign_mode": "concede",
+  "soft_aggregation": true,
+  "wait_aggregation": "softmin",
+  "wait_softmin_normalized": false,
+  "evaluation_mode": "FILL IN the concrete deterministic evaluation mode",
+  "training_episode_budget": 9600,
+  "checkpoint_selection": "best_validation",
+  "training_seeds": [],
+  "dataset_manifest_hash": ""
+}

@@ -1,0 +1,36 @@
+# Full experiment plan (specification section 22 / 24 / 25).
+# Dataset splits are frozen *before* any training; every result must be
+# traceable to an instance id + instance hash + training seed + checkpoint.
+
+problem_config: configs/problem_v2.yaml
+model_config: configs/bao_hgnn_ppo.yaml
+
+dataset:
+  splits:
+    train:       { num_instances: 200, seed_start: 42 }
+    validation:  { num_instances: 20,  seed_start: 1242 }
+    test_small:  { num_instances: 100, seed_start: 10000, job_count_range: [16, 20] }
+    test_medium: { num_instances: 100, seed_start: 11000, job_count_range: [21, 30] }
+    test_large:  { num_instances: 100, seed_start: 12000, job_count_range: [31, 40] }
+    ood_50:      { num_instances: 100, seed_start: 13000, job_count_range: [50, 50] }
+    ood_60:      { num_instances: 100, seed_start: 14000, job_count_range: [60, 60] }
+    ood_80:      { num_instances: 100, seed_start: 15000, job_count_range: [80, 80] }
+
+training:
+  # Main experiment: five independent HGNN-PPO training runs.
+  seeds: [42, 123, 456, 789, 2026]
+
+comparison:
+  method_a: HGNN-PPO          # Bao et al. (2026) makespan-only adaptation (this project)
+  method_b: Concede-HRL       # imported reference results (trained outside this project)
+  test_splits: [test_small, test_medium, test_large, ood_50, ood_60, ood_80]
+  reference:
+    csv: reference/concede/predictions.csv
+    manifest: reference/concede/manifest.json
+  bootstrap_samples: 10000
+  bootstrap_alpha: 0.05
+
+cp_sat:
+  # Optional reference solver for solution-quality context (section 11).
+  time_limit_seconds: 60
+  num_workers: 8

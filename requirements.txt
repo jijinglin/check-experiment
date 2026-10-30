@@ -1,0 +1,19 @@
+# DHHFSP-HGNNPPO-Comparison runtime requirements.
+# Python >= 3.11 (this project was developed and tested on CPython 3.12.7 on Windows).
+#
+# For a CPU-only install of torch (smaller download), use:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+# then:
+#   pip install -r requirements.txt
+
+torch>=2.2
+numpy>=1.26
+PyYAML>=6.0
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.8
+ortools>=9.8
+pytest>=7.4
+
+# Editable install of this project (optional but recommended):
+#   pip install -e .

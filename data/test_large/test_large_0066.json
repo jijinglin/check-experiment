@@ -1,0 +1,546 @@
+{
+  "factories": [
+    {
+      "factory_id": 0,
+      "machines": [
+        {
+          "machine_id": 0,
+          "speed_factor": 2.0,
+          "stage": 0
+        },
+        {
+          "machine_id": 1,
+          "speed_factor": 2.0,
+          "stage": 0
+        },
+        {
+          "machine_id": 2,
+          "speed_factor": 1.4,
+          "stage": 1
+        },
+        {
+          "machine_id": 3,
+          "speed_factor": 1.1,
+          "stage": 1
+        },
+        {
+          "machine_id": 4,
+          "speed_factor": 1.1,
+          "stage": 2
+        },
+        {
+          "machine_id": 5,
+          "speed_factor": 1.1,
+          "stage": 2
+        },
+        {
+          "machine_id": 6,
+          "speed_factor": 1.1,
+          "stage": 2
+        },
+        {
+          "machine_id": 7,
+          "speed_factor": 1.4,
+          "stage": 2
+        },
+        {
+          "machine_id": 8,
+          "speed_factor": 2.0,
+          "stage": 2
+        },
+        {
+          "machine_id": 9,
+          "speed_factor": 1.1,
+          "stage": 3
+        },
+        {
+          "machine_id": 10,
+          "speed_factor": 1.1,
+          "stage": 3
+        },
+        {
+          "machine_id": 11,
+          "speed_factor": 1.7,
+          "stage": 3
+        },
+        {
+          "machine_id": 12,
+          "speed_factor": 2.0,
+          "stage": 3
+        },
+        {
+          "machine_id": 13,
+          "speed_factor": 1.4,
+          "stage": 4
+        },
+        {
+          "machine_id": 14,
+          "speed_factor": 1.7,
+          "stage": 4
+        }
+      ]
+    },
+    {
+      "factory_id": 1,
+      "machines": [
+        {
+          "machine_id": 15,
+          "speed_factor": 2.0,
+          "stage": 0
+        },
+        {
+          "machine_id": 16,
+          "speed_factor": 1.1,
+          "stage": 0
+        },
+        {
+          "machine_id": 17,
+          "speed_factor": 2.0,
+          "stage": 0
+        },
+        {
+          "machine_id": 18,
+          "speed_factor": 1.4,
+          "stage": 1
+        },
+        {
+          "machine_id": 19,
+          "speed_factor": 2.0,
+          "stage": 1
+        },
+        {
+          "machine_id": 20,
+          "speed_factor": 1.4,
+          "stage": 1
+        },
+        {
+          "machine_id": 21,
+          "speed_factor": 1.7,
+          "stage": 2
+        },
+        {
+          "machine_id": 22,
+          "speed_factor": 1.1,
+          "stage": 2
+        },
+        {
+          "machine_id": 23,
+          "speed_factor": 1.4,
+          "stage": 2
+        },
+        {
+          "machine_id": 24,
+          "speed_factor": 2.0,
+          "stage": 3
+        },
+        {
+          "machine_id": 25,
+          "speed_factor": 2.0,
+          "stage": 3
+        },
+        {
+          "machine_id": 26,
+          "speed_factor": 1.7,
+          "stage": 3
+        },
+        {
+          "machine_id": 27,
+          "speed_factor": 1.7,
+          "stage": 4
+        },
+        {
+          "machine_id": 28,
+          "speed_factor": 1.4,
+          "stage": 4
+        },
+        {
+          "machine_id": 29,
+          "speed_factor": 1.7,
+          "stage": 4
+        }
+      ]
+    },
+    {
+      "factory_id": 2,
+      "machines": [
+        {
+          "machine_id": 30,
+          "speed_factor": 2.0,
+          "stage": 0
+        },
+        {
+          "machine_id": 31,
+          "speed_factor": 1.7,
+          "stage": 0
+        },
+        {
+          "machine_id": 32,
+          "speed_factor": 1.7,
+          "stage": 0
+        },
+        {
+          "machine_id": 33,
+          "speed_factor": 1.4,
+          "stage": 0
+        },
+        {
+          "machine_id": 34,
+          "speed_factor": 2.0,
+          "stage": 0
+        },
+        {
+          "machine_id": 35,
+          "speed_factor": 1.7,
+          "stage": 1
+        },
+        {
+          "machine_id": 36,
+          "speed_factor": 1.4,
+          "stage": 1
+        },
+        {
+          "machine_id": 37,
+          "speed_factor": 2.0,
+          "stage": 1
+        },
+        {
+          "machine_id": 38,
+          "speed_factor": 1.7,
+          "stage": 1
+        },
+        {
+          "machine_id": 39,
+          "speed_factor": 1.1,
+          "stage": 2
+        },
+        {
+          "machine_id": 40,
+          "speed_factor": 1.4,
+          "stage": 3
+        },
+        {
+          "machine_id": 41,
+          "speed_factor": 2.0,
+          "stage": 3
+        },
+        {
+          "machine_id": 42,
+          "speed_factor": 1.7,
+          "stage": 4
+        },
+        {
+          "machine_id": 43,
+          "speed_factor": 1.4,
+          "stage": 4
+        },
+        {
+          "machine_id": 44,
+          "speed_factor": 1.7,
+          "stage": 4
+        }
+      ]
+    }
+  ],
+  "instance_id": "test_large_0066",
+  "jobs": [
+    {
+      "arrival_time": 0,
+      "job_id": 0,
+      "type_id": 5
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 1,
+      "type_id": 4
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 2,
+      "type_id": 4
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 3,
+      "type_id": 1
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 4,
+      "type_id": 1
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 5,
+      "type_id": 1
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 6,
+      "type_id": 4
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 7,
+      "type_id": 1
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 8,
+      "type_id": 0
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 9,
+      "type_id": 2
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 10,
+      "type_id": 0
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 11,
+      "type_id": 2
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 12,
+      "type_id": 2
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 13,
+      "type_id": 2
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 14,
+      "type_id": 3
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 15,
+      "type_id": 2
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 16,
+      "type_id": 1
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 17,
+      "type_id": 0
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 18,
+      "type_id": 4
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 19,
+      "type_id": 1
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 20,
+      "type_id": 2
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 21,
+      "type_id": 2
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 22,
+      "type_id": 3
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 23,
+      "type_id": 1
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 24,
+      "type_id": 4
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 25,
+      "type_id": 2
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 26,
+      "type_id": 0
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 27,
+      "type_id": 5
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 28,
+      "type_id": 5
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 29,
+      "type_id": 4
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 30,
+      "type_id": 3
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 31,
+      "type_id": 2
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 32,
+      "type_id": 3
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 33,
+      "type_id": 2
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 34,
+      "type_id": 1
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 35,
+      "type_id": 2
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 36,
+      "type_id": 4
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 37,
+      "type_id": 2
+    },
+    {
+      "arrival_time": 0,
+      "job_id": 38,
+      "type_id": 3
+    }
+  ],
+  "meta": {
+    "seed": 12065,
+    "split": "test_large"
+  },
+  "num_stages": 5,
+  "product_types": [
+    {
+      "base_time": {
+        "0": 27,
+        "1": 68,
+        "2": 19,
+        "3": 16,
+        "4": 27
+      },
+      "base_type": 0,
+      "route": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "type_id": 0
+    },
+    {
+      "base_time": {
+        "0": 27,
+        "2": 19,
+        "3": 16
+      },
+      "base_type": 0,
+      "route": [
+        0,
+        2,
+        3
+      ],
+      "type_id": 1
+    },
+    {
+      "base_time": {
+        "0": 25,
+        "1": 86,
+        "2": 28,
+        "4": 15
+      },
+      "base_type": 1,
+      "route": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "type_id": 2
+    },
+    {
+      "base_time": {
+        "0": 25,
+        "1": 86,
+        "2": 28,
+        "4": 15
+      },
+      "base_type": 1,
+      "route": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "type_id": 3
+    },
+    {
+      "base_time": {
+        "0": 21,
+        "1": 57,
+        "4": 10
+      },
+      "base_type": 2,
+      "route": [
+        0,
+        1,
+        4
+      ],
+      "type_id": 4
+    },
+    {
+      "base_time": {
+        "0": 46,
+        "1": 88,
+        "2": 46,
+        "3": 22,
+        "4": 38
+      },
+      "base_type": 3,
+      "route": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "type_id": 5
+    }
+  ],
+  "schema_version": "1.0"
+}

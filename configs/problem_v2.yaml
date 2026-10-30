@@ -1,0 +1,30 @@
+# DHHFSP problem definition (specification section 3).
+# 3 factories x 5 stages x 45 machines, heterogeneous machine speeds,
+# product variants with missing (skipped) non-first stages.
+problem:
+  num_factories: 3
+  num_stages: 5
+  num_base_types: 4
+
+  machine_layout:
+    - [2, 2, 5, 4, 2]
+    - [3, 3, 3, 3, 3]
+    - [5, 4, 1, 2, 3]
+
+  speed_choices: [1.1, 1.4, 1.7, 2.0]
+  machine_speed_seed: 20260707
+
+  job_count_range: [16, 40]
+  variants_per_base_range: [1, 2]
+
+  missing_count_probs: [0.25, 0.50, 0.25]
+
+  bottleneck_time_range: [55, 100]
+  secondary_time_range: [30, 55]
+  light_time_range: [8, 35]
+
+  secondary_bottleneck_prob: 0.30
+  type_load_factor_range: [0.6, 1.5]
+
+  static_arrival_time: 0
+  objective: makespan

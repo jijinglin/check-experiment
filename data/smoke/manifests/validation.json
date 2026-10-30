@@ -1,0 +1,19 @@
+{
+  "config_hash": "408d5e4249cb2f11222fb5f7878a3240d4030c5d48d57bb6b88d296e0cf9093d",
+  "generator_version": "v2-1",
+  "instance_hashes": [
+    "1e27e0fadbfc83a782944a4800b412c3b591069849826473f1d1ab4baa046c36",
+    "0fae6c678ebe7d1b71c6f590868f44e870df8f3e6be4e9496bc35950df0db45b"
+  ],
+  "instance_ids": [
+    "validation_0001",
+    "validation_0002"
+  ],
+  "job_count_range": [
+    8,
+    10
+  ],
+  "num_instances": 2,
+  "seed_start": 500100,
+  "split": "validation"
+}
