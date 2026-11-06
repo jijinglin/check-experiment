@@ -1,0 +1,5 @@
+[2026-10-30 00:18:32] run_dir=E:\OneDrive\documents\强化学习\DHHFSP对比实验\DHHFSP_HGNNPPO_Comparison\runs\readiness_check seed=42 device=cpu train=200 validation=20 dataset_hash=396649445809...
+[2026-10-30 00:18:55] update 1: episodes=20 mean_makespan=738.71 mean_return=-1.5763 actor_loss=-0.0020 value_loss=0.9099 entropy=1.7733 ratio=0.999 clip_frac=0.055 grad_norm=1.418 (23.4s)
+[2026-10-30 00:19:08] validation @ update 1 (episodes 20): mean_makespan=656.685
+[2026-10-30 00:19:08] new best validation makespan 656.685 -> best.pt
+[2026-10-30 00:19:08] training finished: update=1 episode=20

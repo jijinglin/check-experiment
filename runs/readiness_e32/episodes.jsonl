@@ -1,0 +1,8 @@
+{"decisions": 200, "episode": 1, "instance_id": "train_0036", "kind": "train", "makespan": 675.1, "num_assign": 38, "num_schedule": 162, "total_reward": -1.042947628611154, "update": 1, "wall_time_s": 1.1195}
+{"decisions": 86, "episode": 2, "instance_id": "train_0140", "kind": "train", "makespan": 679.2, "num_assign": 17, "num_schedule": 69, "total_reward": -1.0492816313919358, "update": 1, "wall_time_s": 0.3711}
+{"decisions": 145, "episode": 3, "instance_id": "train_0041", "kind": "train", "makespan": 606.2, "num_assign": 29, "num_schedule": 116, "total_reward": -0.936505484319481, "update": 1, "wall_time_s": 0.7186}
+{"decisions": 98, "episode": 4, "instance_id": "train_0022", "kind": "train", "makespan": 951.4, "num_assign": 17, "num_schedule": 81, "total_reward": -1.4697976208867605, "update": 1, "wall_time_s": 0.4451}
+{"decisions": 121, "episode": 5, "instance_id": "train_0161", "kind": "train", "makespan": 452.5, "num_assign": 23, "num_schedule": 98, "total_reward": -0.6990576239765178, "update": 1, "wall_time_s": 0.5705}
+{"decisions": 150, "episode": 6, "instance_id": "train_0163", "kind": "train", "makespan": 1088.6, "num_assign": 30, "num_schedule": 120, "total_reward": -1.6817549822338946, "update": 1, "wall_time_s": 0.7223}
+{"decisions": 153, "episode": 7, "instance_id": "train_0133", "kind": "train", "makespan": 412.9, "num_assign": 30, "num_schedule": 123, "total_reward": -0.6378804263865286, "update": 1, "wall_time_s": 0.7514}
+{"decisions": 111, "episode": 8, "instance_id": "train_0090", "kind": "train", "makespan": 670.6, "num_assign": 22, "num_schedule": 89, "total_reward": -1.0359956743395644, "update": 1, "wall_time_s": 0.4879}

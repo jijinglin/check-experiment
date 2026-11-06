@@ -1,0 +1,5 @@
+update,episode,decisions,instance_id,makespan,num_assign,num_schedule,wall_time_s
+1,2,50,validation_0001,397.1,10,40,0.1875
+1,2,38,validation_0002,300.2,8,30,0.1368
+2,4,50,validation_0001,397.1,10,40,0.1974
+2,4,38,validation_0002,300.2,8,30,0.1329

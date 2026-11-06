@@ -1,0 +1,6 @@
+[2026-11-01 02:10:40] run_dir=E:\OneDrive\documents\强化学习\DHHFSP对比实验\DHHFSP_HGNNPPO_Comparison\runs\readiness_e32 seed=42 device=cpu train=200 validation=20 dataset_hash=396649445809...
+[2026-11-01 02:10:40] reward=makespan_difference scale=647.3 (time units) total_updates=1200 lr_decay=linear entropy_coef=0.005->0.001 target_kl=0.03
+[2026-11-01 02:10:50] update 1: episodes=8 mean_makespan=692.06 mean_return=-1.0692 actor_loss=0.0084 value_loss=0.2990 entropy=1.7591 ratio=1.001 clip_frac=0.004 grad_norm=0.730 kl=0.0007 epochs=4 lr=3.00e-04 ent_coef=0.0050 (9.9s)
+[2026-11-01 02:11:02] validation @ update 1 (episodes 8): mean_makespan=652.340
+[2026-11-01 02:11:02] new best validation makespan 652.340 -> best.pt
+[2026-11-01 02:11:02] training finished: update=1 episode=8

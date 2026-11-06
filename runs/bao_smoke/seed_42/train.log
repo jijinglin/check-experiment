@@ -1,0 +1,7 @@
+[2026-10-30 00:08:34] run_dir=E:\OneDrive\documents\强化学习\DHHFSP对比实验\DHHFSP_HGNNPPO_Comparison\runs\bao_smoke\seed_42 seed=42 device=cpu train=4 validation=2 dataset_hash=891883e4b42e...
+[2026-10-30 00:08:34] update 1: episodes=2 mean_makespan=435.10 mean_return=-1.4738 actor_loss=-0.0183 value_loss=0.8772 entropy=1.5722 ratio=1.001 clip_frac=0.000 grad_norm=1.678 (0.8s)
+[2026-10-30 00:08:35] validation @ update 1 (episodes 2): mean_makespan=348.650
+[2026-10-30 00:08:35] new best validation makespan 348.650 -> best.pt
+[2026-10-30 00:08:36] update 2: episodes=4 mean_makespan=416.30 mean_return=-2.9655 actor_loss=-0.0051 value_loss=1.9938 entropy=1.5390 ratio=1.000 clip_frac=0.000 grad_norm=2.993 (0.7s)
+[2026-10-30 00:08:36] validation @ update 2 (episodes 4): mean_makespan=348.650
+[2026-10-30 00:08:36] training finished: update=2 episode=4

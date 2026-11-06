@@ -14,11 +14,13 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Local runtime / experiment artifacts
-runs/
 results/
+# training records are tracked; checkpoints are not
 *.pt
 *.pth
-*.log
+*.ckpt
+# stale temp run directory that is not readable by this account
+runs/test_tmp_*/
 
 # Local reference data (external results are not tracked)
 reference/concede/predictions.csv

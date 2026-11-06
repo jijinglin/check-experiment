@@ -1,0 +1,33 @@
+{
+    "launched_at":  "2026-11-06 01:42:19",
+    "pid":  11644,
+    "python":  "E:\\OneDrive\\documents\\强化学习\\DHHFSP对比实验\\DHHFSP_HGNNPPO_Comparison\\.venv\\Scripts\\python.exe",
+    "arguments":  [
+                      "-u",
+                      "scripts/train_bao.py",
+                      "--config",
+                      "configs/bao_const_lr_1200.yaml",
+                      "--seed",
+                      "42",
+                      "--device",
+                      "cpu"
+                  ],
+    "working_directory":  "E:\\OneDrive\\documents\\强化学习\\DHHFSP对比实验\\DHHFSP_HGNNPPO_Comparison",
+    "config":  "configs/bao_const_lr_1200.yaml",
+    "run_dir":  "runs/bao_const_lr_1200/seed_42",
+    "seed":  42,
+    "device":  "cpu",
+    "updates":  1200,
+    "episodes_per_update":  20,
+    "total_episodes":  24000,
+    "learning_rate":  0.0002,
+    "learning_rate_schedule":  "constant",
+    "entropy_coef":  0.01,
+    "reward":  "estimated_telescoping / h_ref",
+    "starts_from_scratch":  true,
+    "stdout":  "E:\\OneDrive\\documents\\强化学习\\DHHFSP对比实验\\DHHFSP_HGNNPPO_Comparison\\runs\\bao_const_lr_1200\\console.log",
+    "stderr":  "E:\\OneDrive\\documents\\强化学习\\DHHFSP对比实验\\DHHFSP_HGNNPPO_Comparison\\runs\\bao_const_lr_1200\\stderr.log",
+    "baseline":  "runs/bao/seed_42",
+    "provenance_tests":  "9 passed",
+    "config_sha256":  "6E5A728A016C190F1B4E15052416335086679BFFB6CDE401A31641FB7A2A0CA6"
+}
